@@ -1,0 +1,85 @@
+.nav {
+  width: 500px;
+  margin: auto;
+  .navBar {
+    background-color: #818181;
+  }
+
+  .nav-link.active {
+    background-color: #fafafa !important;
+  }
+
+  .nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .link {
+    padding: 10px 69px;
+  }
+}
+
+.composeTeam {
+  background-color: #fafafa;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  .ant-row {
+    &.submitContent {
+      display: block;
+      margin: auto;
+      .ant-form-item-control-input-content {
+        flex: none;
+      }
+    }
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    justify-content: center;
+    .ant-input,
+    .ant-input-number {
+      width: 100%;
+      font-size: 20px;
+      height: 41px;
+    }
+  }
+  .position {
+    text-align: left;
+    .positFlax {
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+    }
+  }
+
+  .selectPlayer {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 48%;
+    }
+    select {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 18px;
+      padding: 10px 0;
+      border: none;
+      background-color: #fafafa;
+      outline: none;
+    }
+  }
+
+  .submit,
+  .ant-btn.ant-btn-primary {
+    color: white;
+    background-color: #495ef2;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    outline: none;
+    margin: 0 auto;
+  }
+
+  .errorMessage {
+    color: #ff0000;
+  }
+}
